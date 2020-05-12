@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/string-to-integer-atoi/
 int myAtoi(string str) {
         int out=0;
         int sign=0;

@@ -5,6 +5,8 @@ Compute the number of combinations that make up that amount, assume that you hav
 from typing import List
 def change(amount: int, coins: List[int]) -> int:
     """
+    Compute the number of combinations of given coins that make up amount.
+    
     amount: int - Amount of money to make up using combinations of given coins.
     coins: List[int] - different denominations of coins.
     """

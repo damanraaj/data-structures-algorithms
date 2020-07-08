@@ -5,9 +5,10 @@ compute the fewest number of coins that you need to make up that amount.
 from typing import List
 def coinChange(coins: List[int], amount: int) -> int:
     """
+    Compute the fewest number of coins that you need to make up that amount,
+    
     amount: int - Amount of money to make up using combinations of given coins.
-    coins: List[int] - different denominations of coins.
-    return -1 if amount cannot be formed using any combination of given coins.
+    coins: List[int] - different denominations of coins.    
     """
     dp:List[int] = [float('inf') for j in range(amount + 1)]
     dp[0] = 0
